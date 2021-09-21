@@ -1,11 +1,11 @@
 window.addEventListener('DOMContentLoaded', function ()  {
-    const tabs = require('./modules/tabs'),
-          modal =require('./modules/modal'),
-          calc =require('./modules/calc'),
-          slider =require('./modules/slider'),
-          forms =require('./modules/forms'),
-          timer =require('./modules/timer'),
-          cards =require('./modules/cards');
+    const tabs = require('./js/modules/tabs'),
+          modal =require('./js/modules/modal'),
+          calc =require('./js/modules/calc'),
+          slider =require('./js/modules/slider'),
+          forms =require('./js/modules/forms'),
+          timer =require('./js/modules/timer'),
+          cards =require('./js/modules/cards');
     
         tabs();
         modal();
